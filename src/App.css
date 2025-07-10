@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,495&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cityandstart {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+#cityandstart select:last-of-type  {
+  margin-top: 10px;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar {
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+#sidebar h2 {
+  padding-bottom: 20px;
+}
+
+.tiktok-sans-glob {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 495;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
+
+.tiktok-sans-h2 {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -2,
+    "wdth" 112.5;
+}
+
+
+.tiktok-sans-h3 {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 581;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -3,
+    "wdth" 106.9;
+  font-size: x-large;
+}
+
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+
+#sidebarTexts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+#results {
+  padding-left: 20px;
+  padding-top: 10px;
+  line-height: 1.8;
+}
+
+.button {
+  border: 0px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: oklch(39.8% 0.195 277.366);
+  color: oklch(98.2% 0.018 155.826);
+}
+
+.button:hover {
+  background-color: oklch(25.7% 0.09 281.288);
+  cursor: pointer;
+}
+
+.input {
+  border-radius: 5px;
+  border: 1px solid oklch(27.4% 0.006 286.033);
+  padding-left: 5px;
+}
